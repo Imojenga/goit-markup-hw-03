@@ -66,7 +66,7 @@ body {
 }
 
 .page-header {
-  border-bottom: #e7e9fc solid 1px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-nav {
@@ -177,6 +177,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .solutions-title,
@@ -187,17 +188,16 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .solutions-list {
   display: flex;
-  justify-content: space-between;
-  max-width: 1128px;
+  column-gap: 24px;
 }
 
 .solutions-list-item {
   width: calc((100% - 72px) / 4);
-  gap: 24px;
 }
 
 .solutions-text,
@@ -212,11 +212,41 @@ body {
 
 .team-list {
   display: flex;
+  column-gap: 24px;
 }
 
 .team-list-item {
   text-align: center;
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  padding-bottom: 32px;
+  box-shadow: 0 2px 1px 0 #2e2f4214, 0 1px 1px 0 #2e2f4229,
+    0 1px 6px 0 #2e2f4214;
+  border-radius: 0 0 4px 4px;
+}
+
+.team-img {
+  padding-bottom: 32px;
+}
+
+.portfolio-list {
+  display: flex;
+  column-gap: 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
+  padding-bottom: 48px;
+}
+
+.portfolio-container {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .page-footer {
@@ -231,5 +261,5 @@ body {
 .footer-text {
   color: #f4f4fd;
   max-width: 264px;
-  padding-top: 16px;
+  margin-top: 16px;
 }
