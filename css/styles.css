@@ -60,28 +60,18 @@ body {
   margin-right: auto;
 }
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
 }
 
-.page-header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
 .page-nav {
   display: flex;
   align-items: center;
-}
-
-.menu {
-  display: flex;
-  gap: 40px;
-}
-
-.contact-menu {
-  display: flex;
-  gap: 40px;
 }
 
 .page-logo {
@@ -97,6 +87,11 @@ body {
 
 .page-logo-accent {
   color: #2e2f42;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
 }
 
 .menu-link {
@@ -117,6 +112,11 @@ body {
 
 .page-address {
   font-style: normal;
+}
+
+.contact-menu {
+  display: flex;
+  gap: 40px;
 }
 
 .contact-link {
@@ -183,6 +183,15 @@ body {
   margin-bottom: 72px;
 }
 
+.solutions-list {
+  display: flex;
+  gap: 24px;
+}
+
+.solutions-list-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .solutions-title,
 .team-title,
 .portfolio-title {
@@ -192,15 +201,6 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-}
-
-.solutions-list {
-  display: flex;
-  gap: 24px;
-}
-
-.solutions-list-item {
-  width: calc((100% - 72px) / 4);
 }
 
 .solutions-text,
