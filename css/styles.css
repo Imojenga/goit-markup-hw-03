@@ -196,7 +196,7 @@ body {
 
 .solutions-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .solutions-list-item {
@@ -244,11 +244,11 @@ body {
   display: flex;
   column-gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
-  row-gap: 48px;
 }
 
 .portfolio-container {
